@@ -1,0 +1,10 @@
+select name,continent,region from country;
+select * from country where name like '%A';
+select * from country where continent = 'Asia';
+select region from country where LifeExpectancy >' 80%';
+select distinct population from city;
+select *from Countrylanguage  limit 10;
+select * from country where name like '%A';
+select *from country where GovernmentForm ='republic'or 'US territory';
+select * from city where ID in  (1, 5 ,9);
+select *from countrylanguage where language = 'English';
